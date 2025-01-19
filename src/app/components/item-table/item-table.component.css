@@ -1,0 +1,118 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.add-button {
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #2196F3, #1976D2);
+  color: white;
+  padding: 0 24px;
+  height: 44px;
+  font-size: 16px;
+  border-radius: 22px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.add-button:hover {
+  background: linear-gradient(45deg, #1976D2, #1565C0);
+  box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+  transform: translateY(-1px);
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mat-column-actions {
+  width: 160px;
+  text-align: center;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-button {
+  background: linear-gradient(45deg, #4CAF50, #388E3C);
+  transition: all 0.3s ease;
+}
+
+.edit-button:hover {
+  background: linear-gradient(45deg, #388E3C, #2E7D32);
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+  transform: translateY(-1px);
+}
+
+.delete-button {
+  background: linear-gradient(45deg, #f44336, #d32f2f);
+  transition: all 0.3s ease;
+}
+
+.delete-button:hover {
+  background: linear-gradient(45deg, #d32f2f, #c62828);
+  box-shadow: 0 4px 8px rgba(244, 67, 54, 0.3);
+  transform: translateY(-1px);
+}
+
+.edit-form {
+  background: #f5f5f5;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.edit-form mat-form-field {
+  margin-right: 20px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.form-actions button {
+  min-width: 100px;
+  border-radius: 20px;
+}
+
+.chart-container {
+  margin-top: 40px;
+  position: relative;
+  min-height: 400px;
+  width: 100%;
+  display: block;
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect to table rows */
+.mat-mdc-row:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Style table header */
+.mat-mdc-header-row {
+  background-color: #f5f5f5;
+}
+
+.mat-mdc-header-cell {
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
