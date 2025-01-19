@@ -5,13 +5,16 @@ A modern Angular application featuring a CRUD (Create, Read, Update, Delete) tab
 ## Screenshots
 
 ### Main Table View
-![Table View](screenshots/Screenshot%20(1).png)
+![Table View](screenshots/table.png)
 
-### Add/Edit Form
-![Add/Edit Form](screenshots/Screenshot%20(2).png)
+### Add Item Form
+![Add Item Form](screenshots/additem.png)
+
+### Edit Item Form
+![Edit Item Form](screenshots/edititem.png)
 
 ### Chart Visualization
-![Chart Visualization](screenshots/Screenshot%20(3).png)
+![Chart Visualization](screenshots/chart.png)
 
 ## Features
 
