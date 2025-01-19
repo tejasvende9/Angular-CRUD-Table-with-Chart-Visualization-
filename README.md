@@ -2,6 +2,17 @@
 
 A modern Angular application featuring a CRUD (Create, Read, Update, Delete) table with chart visualization using Angular Material and Chart.js.
 
+## Screenshots
+
+### Main Table View
+![Table View](screenshots/Screenshot%20(1).png)
+
+### Add/Edit Form
+![Add/Edit Form](screenshots/Screenshot%20(2).png)
+
+### Chart Visualization
+![Chart Visualization](screenshots/Screenshot%20(3).png)
+
 ## Features
 
 - CRUD operations for managing items
