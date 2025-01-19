@@ -1,59 +1,57 @@
-# AngularCrudTable
+# Angular CRUD Table with Chart Visualization
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.2.
+A modern Angular application featuring a CRUD (Create, Read, Update, Delete) table with chart visualization using Angular Material and Chart.js.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- CRUD operations for managing items
+- Material Design table with sorting and filtering
+- Interactive bar chart visualization using Chart.js
+- Modern UI with animations and tooltips
+- Responsive design
 
+## Technologies Used
+
+- Angular 17
+- Angular Material
+- Chart.js / ng2-charts
+- TypeScript
+- SCSS
+
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/tejasvende9/Angular-CRUD-Table-with-Chart-Visualization-.git
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+4. Open your browser and navigate to `http://localhost:4200`
 
-## Code scaffolding
+## Features
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Table Features
+- Add new items
+- Edit existing items
+- Delete items
+- Responsive design
+- Material Design styling
 
-```bash
-ng generate component component-name
-```
+### Chart Features
+- Dynamic bar chart visualization
+- Auto-updating on data changes
+- Custom color scheme
+- Interactive tooltips
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Contributing
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Feel free to submit issues and enhancement requests!
